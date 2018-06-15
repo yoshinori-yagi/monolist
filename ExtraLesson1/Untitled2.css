@@ -1,0 +1,52 @@
+photo-show { 
+    height: 600px; /*表示したい大きさ*/
+    margin: 30px auto; /*縦余白30pxは任意*/
+    max-width: 100%;
+    position: relative;
+    width: 800px; /*表示したい大きさ、height と合わせる*/
+}
+
+.photo-show img { 
+    animation: show 20s infinite;
+    height: auto;
+    width: auto;
+    opacity: 0;
+    position: absolute; /*画像を全て重ねる*/
+}
+
+/*アニメーション*/
+
+@keyframes show {
+    0% {opacity:0}
+    25% {opacity:1}
+    50% {opacity:1}
+    75% {opacity:0}
+ }
+
+
+/*各画像のアニメーションの開始時間をずらす*/
+
+.photo-show img:nth-of-type(1) {
+    animation-delay: 0s;
+}
+
+.photo-show img:nth-of-type(2) {
+    animation-delay: 5s;
+}
+
+.photo-show img:nth-of-type(3) {
+    animation-delay: 10s;
+}
+
+
+
+/*マウスが画像に重なった際、動きを止めて四角くする*/
+
+.photo-show img {
+    transition: 0.1s;
+}
+
+.photo-show:hover img {
+    animation-play-state: paused;
+    border-radius: 0;
+}

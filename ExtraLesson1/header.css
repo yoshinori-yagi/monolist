@@ -1,0 +1,33 @@
+.cleaerfix::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+#wrapper{
+	overflow: hidden;
+}
+
+header{
+	background-color: #ffcccc;
+}
+
+#main{
+	float: left;
+	width: 700px;
+	background-color: #ccffcc;
+}
+
+#menu{
+	float: right;
+	width: 300px;
+	background-color: #ccccff;
+}
+
+footer{
+	clear: both;
+	background-color: #ffccff;
+}
+body{
+	width:1000px;
+}

@@ -1,0 +1,25 @@
+header {
+     width : 1600px;
+    height : 100px;
+}
+
+main {
+     width : 1600px;
+    height : 1500px;
+}
+
+footer {
+    width : 1600px;
+    height : 300px;
+}
+
+.background {
+    width : 1600px;
+    height : 900px;
+}
+
+.main1 {
+     width : 1600px;
+    height : 900px;
+    opacity : 0.5;
+}

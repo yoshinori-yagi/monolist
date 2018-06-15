@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+            <meta charset="utf-8">
+            <title>HTML/CSSでWebページ作成</title>
+    </head>
+    
+    <body>
+        <header>
+            <p>ここはヘッダーです。</p>
+        </header>
+    </body>
+</html>
