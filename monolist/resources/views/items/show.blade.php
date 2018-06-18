@@ -24,7 +24,7 @@
             <div class="want-users">
                 <div class="panel panel-default">
                     <div class="panel-heading text-center">
-                        Wantしたユーザ
+                        Wantしたuser
                     </div>
                     <div class="panel-body">
                         @foreach ($want_users as $user)
@@ -36,7 +36,7 @@
             <div class="have-users">
                 <div class="panel panel-default">
                     <div class="panel-heading text-center">
-                        Haveしたユーザ
+                        Haveしたuser
                     </div>
                     <div class="panel-body">
                         @foreach ($have_users as $user)
@@ -48,4 +48,4 @@
             <p class="text-center"><a href="{{ $item->url }}" target="_blank">楽天詳細ページへ</a></p>
         </div>
     </div>
-@endsections
+@endsection

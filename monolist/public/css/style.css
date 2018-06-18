@@ -1,3 +1,50 @@
+@charset "utf-8";
+/* body */
+body {
+background: #f2f2f2;
+}
+footer {
+margin-top: 40px;
+}
+/* navbar */
+.navbar {
+background-color: #fff;
+}
+.navbar-header img {
+margin-top: 5px;
+height: 40px;
+}
+/* cover */
+.cover {
+margin-top: -20px;
+margin-bottom: 20px;
+width: 100%;
+height: 300px;
+background: url("/images/cover-bg.jpg") center center no-repeat;
+background-size: cover;
+}
+.cover .cover-inner {
+height: 100%;
+margin: auto;
+display: table;
+}
+.cover .cover-inner .cover-contents {
+display: table-cell;
+vertical-align: middle;
+text-align: center;
+position: relative;
+}
+.cover .cover-inner .cover-contents h1 {
+margin: 0 0 20px 0;
+color: #fff;
+font-weight: bold;
+letter-spacing: 0.15em;
+}
+.cover .btn-success {
+background-color: #ed486f;
+border-color: #ed486f;
+}
+
 /* search */
 .search {
     margin-bottom: 20px;
@@ -14,7 +61,7 @@
     height: 100%;
     max-width: 100%;
 }
-p.item-title {
+.item-title {
     /* Keep the number of lines in a sentence on two lines, and add "..." to the end of line. */
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -26,7 +73,7 @@ p.item-title {
 .item .panel-body {
     height: 120px;
 }
-.item .buttons form {
+.item .buttons  {
     display: inline-block;
     margin: 0 5px;
 }
